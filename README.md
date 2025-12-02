@@ -1,185 +1,202 @@
-<div align="center">
-  <br />
-    <a href="https://www.youtube.com/watch?v=honnJp7-cCU" target="_blank">
-      <img src="public/readme/hero.jpg" alt="Project Banner">
-    </a>
-  <br />
+# 🎬 SnapCast - Screen Recording & Video Sharing Platform
 
-  <div>
-    <img src="https://img.shields.io/badge/-Next.JS-black?style=for-the-badge&logoColor=white&logo=nextdotjs&color=black" alt="next.js" />
-    <img src="https://img.shields.io/badge/Bunny.net-F47326?style=for-the-badge&logo=bunnyvideo&logoColor=white">
-    <img src="https://img.shields.io/badge/-Tailwind-00BCFF?style=for-the-badge&logo=tailwind-css&logoColor=white" />
-  </div>
+> **Record. Share. Inspire.** — The easiest way to capture and share your screen with the world.
 
-  <h3 align="center">Full Stack Screen Recording & Video Sharing Platform</h3>
+![SnapCast Hero](public/readme/hero.jpg)
 
-   <div align="center">
-     Build this project step by step with our detailed tutorial on <a href="" target="_blank"><b>JavaScript Mastery</b></a> YouTube. Join the JSM family!
-    </div>
-</div>
+## ✨ What is SnapCast?
 
-## 📋 <a name="table">Table of Contents</a>
+SnapCast is a **free, fast, and intuitive screen recording platform** that lets anyone record, edit, and share high-quality videos in seconds. No sign-ups, no complicated setup—just pure creativity.
 
-1. 🤖 [Introduction](#introduction)
-2. ⚙️ [Tech Stack](#tech-stack)
-3. 🔋 [Features](#features)
-4. 🤸 [Quick Start](#quick-start)
-5. 🔗 [Assets](#links)
-6. 🚀 [More](#more)
+Whether you're a content creator, educator, developer, or just someone with an idea to share, SnapCast makes it effortless.
 
-## 🚨 Tutorial
+---
 
-This repository contains the code corresponding to an in-depth tutorial available on our YouTube channel, <a href="https://www.youtube.com/@javascriptmastery/videos" target="_blank"><b>JavaScript Mastery</b></a>.
+## 🚀 Key Features
 
-If you prefer visual learning, this is the perfect resource for you. Follow our tutorial to learn how to build projects like these step-by-step in a beginner-friendly manner!
+### 🎥 **One-Click Screen Recording**
+Record your entire screen, a specific window, or just a portion. Choose what you want to capture, hit record, and you're done.
 
-<a href="https://www.youtube.com/watch?v=honnJp7-cCU" target="_blank"><img src="https://github.com/sujatagunale/EasyRead/assets/151519281/1736fca5-a031-4854-8c09-bc110e3bc16d" /></a>
+### ⚡ **Lightning-Fast Upload**
+Built with [Bunny CDN](https://bunny.com/) for blazing-fast uploads and global delivery. Your videos load instantly, everywhere.
 
-## <a name="introduction">🤖 Introduction</a>
+### 🎨 **Beautiful Video Gallery**
+Browse, filter, and discover videos. Search by title, sort by views or date, and find exactly what you're looking for.
 
-Built with Next.js and Bunny.net, this Full Stack Screen Recording & Video Sharing Platform includes user authentication with "Better Auth", screen recording, video uploads, and the ability to share videos via link. Users can set videos as public or private, view AI-generated transcripts, and access metadata like video ID and URL. A built-in search bar makes finding content fast and simple.
+### 🔐 **Privacy Control**
+Choose between public and private videos. Share your content with the world or keep it just for you.
 
-If you're getting started and need assistance or face any bugs, join our active Discord community with over **50k+** members. It's a place where people help each other out.
+### 📱 **Fully Responsive**
+Works perfectly on desktop, tablet, and mobile. Record and share from anywhere.
 
-<a href="https://discord.com/invite/n6EdbFJ" target="_blank"><img src="https://github.com/sujatagunale/EasyRead/assets/151519281/618f4872-1e10-42da-8213-1d69e486d02e" /></a>
+### 🆓 **Completely Free**
+No subscriptions. No hidden fees. No accounts required. Just record and share.
 
-## <a name="tech-stack">⚙️ Tech Stack</a>
-- **[Arcjet](https://jsm.dev/snapcast-arcjet)** is a developer-first security platform that integrates bot protection, rate limiting, email validation, and attack protection into your application with minimal code. It offers customizable protection for forms, login pages, and API routes, supporting frameworks like Node.js, Next.js, Deno, Bun, Remix, SvelteKit, and NestJS.
+### 🛡️ **Security First**
+Built with [Arcjet](https://arcjet.com/) for rate limiting and abuse prevention. Your content is safe.
 
-- **[Bunny.net](https://jsm.dev/snapcast-bunny)** is a developer-friendly video delivery platform offering global CDN, edge storage, adaptive streaming, and a customizable player. It simplifies video management with features like automatic encoding, token-based security, and real-time analytics. Ideal for seamless, secure, and scalable video streaming.
+---
 
-- **[Better Auth](https://www.better-auth.com/)** is a TypeScript-first authentication and authorization library that simplifies implementing secure login, two-factor authentication, and social sign-ins, all while supporting multi-tenancy. 
-  
-- **[Drizzle ORM](https://orm.drizzle.team/)** is a type-safe, lightweight ORM for SQL databases, providing a modern solution for interacting with databases using TypeScript, supporting migrations, queries, and schema management.  
+## 🎯 Perfect For
 
-- **[Next.js](https://nextjs.org/)** is a powerful React framework that enables the development of fast, scalable web applications with features like server-side rendering, static site generation, and API routes for building full-stack applications. 
+- 👨‍💻 **Developers** - Create tutorials, code walkthroughs, and bug reports
+- 🎓 **Educators** - Record lectures, explanations, and educational content
+- 🎬 **Content Creators** - Build a video library and grow your audience
+- 📊 **Professionals** - Share presentations, demos, and business updates
+- 🤝 **Everyone** - Tell your story with video
 
-- **[Tailwind CSS](https://tailwindcss.com/)** is a utility-first CSS framework that allows developers to design custom user interfaces by applying low-level utility classes directly in HTML, streamlining the design process.  
-  
-- **[TypeScript](https://www.typescriptlang.org/)** is a superset of JavaScript that adds static typing, providing better tooling, code quality, and error detection for developers, making it ideal for building large-scale applications.
+---
 
-- **[Xata](https://xata.io)** is a serverless PostgreSQL platform offering auto-scaling, zero-downtime schema migrations, real-time branching, and built-in full-text search. It provides a spreadsheet-like UI for intuitive data management, enhancing modern development workflows.
+## 🛠️ Tech Stack
 
+| Component | Technology |
+|-----------|-----------|
+| **Frontend** | [Next.js 15](https://nextjs.org/) + [React 19](https://react.dev/) |
+| **Styling** | [Tailwind CSS 4](https://tailwindcss.com/) |
+| **Database** | [PostgreSQL](https://www.postgresql.org/) via [Xata](https://xata.io/) |
+| **ORM** | [Drizzle](https://orm.drizzle.team/) |
+| **Authentication** | [Better Auth](https://www.better-auth.com/) (Optional - Free to use!) |
+| **Video Storage** | [Bunny Stream CDN](https://bunny.com/stream) |
+| **Thumbnail Storage** | [Bunny Storage](https://bunny.com/storage) |
+| **Security** | [Arcjet](https://arcjet.com/) (Rate Limiting & Protection) |
+| **Deployment** | [Vercel](https://vercel.com/) |
 
-## <a name="features">🔋 Features</a>
+---
 
-👉 **Authentication**: Secure user sign-up and sign-in with Better-Auth & Google.  
+## 🎬 Getting Started
 
-👉 **Screen Recording**: Capture your screen directly within the app for seamless video recording.  
+### Quick Start (2 minutes)
 
-👉 **Video Uploading**: Effortlessly upload videos with a simple interface, supporting both public and private settings.  
+1. **Visit the app** → No sign-up needed
+2. **Click Record** → Allow screen access
+3. **Share** → Get your video link instantly
 
-👉 **AI Transcripts**: Get AI-generated transcripts for uploaded videos, making content more accessible and searchable.  
+### For Developers
 
-👉 **Privacy Control**: Toggle video visibility between public and private, ensuring full control over your content.  
+#### Prerequisites
+- Node.js 18+
+- PostgreSQL database
+- Bunny.com API keys (for video storage)
 
-👉 **Arcjet Integration**: Easily implement bot protection, rate limiting, email validation, and attack protection with minimal code, enhancing your app's security.
-
-👉 **Metadata**: Access video metadata, including unique video ID and URL, for easy sharing and referencing.  
-
-👉 **Search Functionality**: Find your videos quickly with an intuitive search bar, streamlining navigation.  
-
-👉 **Share Videos**: Share videos via unique links for easy access and distribution.  
-
-👉 **Modern UI/UX**: Clean, responsive design built with Tailwind CSS for a sleek user experience.  
-
-👉 **Database Integration**: Utilize Xata for real-time, scalable database management.  
-
-👉 **Type-Safe Queries**: Benefit from Drizzle ORM’s type-safe queries for secure and efficient database interactions.  
-
-👉 **Scalable Tech Stack**: Built with Next.js for a fast, production-ready web application that scales seamlessly.  
-
-👉 **Code Reusability**: Leverage reusable components and a modular codebase for efficient development.  
-
-👉 **Cross-Device Compatibility**: Fully responsive design that works seamlessly across all devices.  
-
-And many more, including enhanced security and optimized video performance!
-
-
-## <a name="quick-start">🤸 Quick Start</a>
-
-Follow these steps to set up the project locally on your machine.
-
-**Prerequisites**
-
-Make sure you have the following installed on your machine:
-
-- [Git](https://git-scm.com/)
-- [Node.js](https://nodejs.org/en)
-- [npm](https://www.npmjs.com/) (Node Package Manager)
-
-**Cloning the Repository**
+#### Installation
 
 ```bash
-git clone https://github.com/adrianhajdin/screen_recording_sharing_app.git
-cd screen_recording_sharing_app
-```
+# Clone the repository
+git clone https://github.com/Kunall7890/SnapCast_Video_recording_platform.git
+cd screen_recording_sharing_app-main
 
-**Installation**
-
-Install the project dependencies using npm:
-
-```bash
+# Install dependencies
 npm install
-```
 
-**Set Up Environment Variables**
+# Set up environment variables
+cp .env.example .env.local
 
-Create a new file named `.env` in the root of your project and add the following content:
+# Configure your .env.local with:
+# - BETTER_AUTH_SECRET
+# - GOOGLE_CLIENT_ID & GOOGLE_CLIENT_SECRET
+# - DATABASE_URL_POSTGRES
+# - BUNNY API keys (BUNNY_LIBRARY_ID, BUNNY_STREAM_ACCESS_KEY, etc.)
+# - ARCJET_API_KEY
 
-```env
-# Next.js
-NEXT_PUBLIC_BASE_URL=http://localhost:3000
+# Run migrations
+npm run db:push
 
-# [Xata] Configuration used by the CLI and the SDK
-# Make sure your framework/tooling loads this file on startup to have it available for the SDK
-XATA_API_KEY=
-DATABASE_URL_POSTGRES=
-
-# Google
-GOOGLE_CLIENT_ID=
-GOOGLE_CLIENT_SECRET=
-
-# BetterAuth
-BETTER_AUTH_SECRET=
-BETTER_AUTH_URL=http://localhost:3000
-
-# Bunny
-BUNNY_STORAGE_ACCESS_KEY=
-BUNNY_LIBRARY_ID=
-BUNNY_STREAM_ACCESS_KEY=
-
-#ArcJet
-ARCJET_API_KEY=
-XATA_API_KEY=
-```
-
-Replace the placeholder values with your actual credentials. You can obtain these credentials by signing up on: [Better-Auth](https://www.better-auth.com), [Google Cloud](https://console.cloud.google.com), [Bunny.net](https://jsm.dev/snapcast-bunny), [Xata.io](https://xata.io), [Arcjet](https://jsm.dev/snapcast-arcjet).
-
-**Running the Project**
-
-```bash
+# Start development server
 npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) in your browser to view the project.
+Visit `http://localhost:3000` and start recording! 🎉
 
+---
 
-## <a name="links">🔗 Assets</a>
+## 📋 Features Roadmap
 
-Assets and snippets used in the project can be found in the **[video kit](https://jsm.dev/snapcast-kit)**.
+- [x] Screen recording
+- [x] Video gallery with filtering
+- [x] Public/private videos
+- [x] Video player with streaming
+- [x] Search functionality
+- [ ] Video editing tools
+- [ ] Custom branding for videos
+- [ ] Analytics dashboard
+- [ ] Team collaboration
+- [ ] API access
+- [ ] Mobile app
 
-<a href="https://jsm.dev/snapcast-kit" target="_blank">
-  <img src="public/readme/videokit.jpg" alt="Video Kit Banner">
-</a>
+---
 
-## <a name="more">🚀 More</a>
+## 🖼️ Screenshots
 
-**Advance your skills with Next.js Pro Course**
+### Home Page
+![Home](public/readme/hero.jpg)
 
-Enjoyed creating this project? Dive deeper into our PRO courses for a richer learning adventure. They're packed with
-detailed explanations, cool features, and exercises to boost your skills. Give it a go!
+### Video Upload
+![Upload](public/assets/icons/upload.svg)
 
-<a href="https://jsm.dev/snapcast-jsmpro" target="_blank">
-  <img src="public/readme/jsmpro.jpg" alt="Project Banner">
-</a>
+### Video Gallery
+![Gallery](public/assets/icons/video.svg)
+
+---
+
+## 🎯 Use Cases
+
+### 📚 **Education**
+Teachers and instructors use SnapCast to create engaging video lessons without expensive equipment or complex software.
+
+### 💼 **Business**
+Sales teams share product demos, support teams create troubleshooting guides, and managers communicate updates.
+
+### 🎨 **Content Creation**
+YouTubers, streamers, and creators capture gameplay, tutorials, and reactions instantly.
+
+### 🐛 **Bug Reports**
+Developers record bugs in action to help teams understand and fix issues faster.
+
+### 💬 **Communication**
+Sometimes a 2-minute video says more than a thousand words. Share your message visually.
+
+---
+
+## 🌍 Community
+
+We'd love to hear from you!
+
+- 🐛 **Found a bug?** [Report it on GitHub Issues](https://github.com/Kunall7890/SnapCast_Video_recording_platform/issues)
+- 💡 **Have an idea?** [Start a Discussion](https://github.com/Kunall7890/SnapCast_Video_recording_platform/discussions)
+- ⭐ **Love it?** [Give us a star!](https://github.com/Kunall7890/SnapCast_Video_recording_platform)
+
+---
+
+## 📄 License
+
+SnapCast is open source and available under the [MIT License](LICENSE).
+
+---
+
+## 🙏 Credits
+
+Built by [Kunal Jaiswal](https://github.com/Kunall7890)
+
+### Powered By
+- [Vercel](https://vercel.com) - Hosting & Deployment
+- [Bunny CDN](https://bunny.com) - Video Streaming & Storage
+- [Xata](https://xata.io) - Database
+- [Arcjet](https://arcjet.com) - Security
+
+---
+
+## 🎉 Ready to Record?
+
+### **[Start Recording Now →](https://snapcast-demo.vercel.app)**
+
+No sign-up. No credit card. Just pure video magic. ✨
+
+---
+
+<div align="center">
+
+**Made with ❤️ for creators, by creators**
+
+[GitHub](https://github.com/Kunall7890/SnapCast_Video_recording_platform) • [Twitter](#) • [Discord](#)
+
+</div>
